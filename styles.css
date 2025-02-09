@@ -389,6 +389,13 @@ html {
   .service-card {
     width: 100%;
   }
+  @media (max-width: 480px) {
+    .service-card img {
+      width: 70%; /* Зменшуємо зображення до 70% від ширини батьківського елемента */
+      max-width: 150px; /* Встановлюємо максимальну ширину */
+      margin-bottom: 15px;
+    }
+  }
 }
 /* About Us Section */
 /* About Us Section */
